@@ -1,8 +1,12 @@
-import MyComponent from './services/sw-api.js'
+import AllStarships from './services/starship-mapper.js'
+import StarshipCard from './services/starshipcard.js';
+import './App.css'
 function App() {
   return (
     <div>
-      <MyComponent />
+      <StarshipCard 
+      prop={AllStarships}
+      />
     </div>
   );
 }
