@@ -1,11 +1,11 @@
-import { fetchShips } from './sw-api.js'
+import { ApiGrabber } from './sw-api.js'
 import React, {useState, useEffect} from "react"
 
 const ShipsScreen = props => {
     const [ships, setShips] = useState([]);
 
     useEffect(() => {
-        fetchShips()
+        ApiGrabber()
             .then(response => response.json())
         .then(data => setShips(data));
     }, []);
