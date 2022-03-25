@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Star Wars Starships</h1>
+    <div className="bodyHeader"><h1>Star Wars Starships</h1></div>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

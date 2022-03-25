@@ -44,6 +44,7 @@ body {
 .shipCardHolder{
   display:flex;
   flex-wrap:wrap;
+  justify-content:center;
 }
 .starshipCard {
   width:200px;
@@ -53,4 +54,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
+}
+.bodyHeader{
+  text-align:center;
 }
